@@ -1,0 +1,10 @@
+{
+  "agent_id": "atm-e43b",
+  "updated_at": "2026-09-05T06:15:08.384546+00:00",
+  "state": "DEAD",
+  "runway_hours": 0.0,
+  "surplus_7d": -1.75,
+  "cycle_budget": 0.0,
+  "may_replicate": false,
+  "balance_usd": 0.25
+}

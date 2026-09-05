@@ -1,0 +1,38 @@
+{"type": "credit", "to": "wallet-atm-e43b", "amount": 2.0, "memo": "endowment", "category": "endowment", "at": "2026-09-05T06:15:08.378322+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.378379+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.378485+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.378591+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.379195+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.379781+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.379985+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.380230+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.380899+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.381581+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.382340+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.382713+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.382956+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383028+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383097+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383162+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383227+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383293+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383356+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383418+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383486+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383551+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383616+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383683+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383750+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383821+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383889+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.383957+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384021+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384128+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384203+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384270+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384333+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384395+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384458+00:00"}
+{"type": "debit", "from": "wallet-atm-e43b", "amount": 0.05, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.384523+00:00"}
+{"type": "revoke", "address": "wallet-atm-e43b", "memo": "grants revoked", "at": "2026-09-05T06:15:08.384587+00:00"}
+{"type": "transfer", "from": "wallet-atm-e43b", "to": "treasury-public", "amount": 0.25, "memo": "reaper sweep residual", "at": "2026-09-05T06:15:08.384606+00:00"}

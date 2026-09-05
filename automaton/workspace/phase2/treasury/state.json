@@ -1,0 +1,10 @@
+{
+  "agent_id": "atm-0916",
+  "updated_at": "2026-09-05T06:15:08.425716+00:00",
+  "state": "STABLE",
+  "runway_hours": 742.6,
+  "surplus_7d": 24.95,
+  "cycle_budget": 0.08,
+  "may_replicate": true,
+  "balance_usd": 29.9544
+}

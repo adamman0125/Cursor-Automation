@@ -1,0 +1,5 @@
+{"type": "credit", "to": "wallet-atm-0916", "amount": 5.0, "memo": "endowment", "category": "endowment", "at": "2026-09-05T06:15:08.424549+00:00"}
+{"type": "debit", "from": "wallet-atm-0916", "amount": 0.02, "memo": "hosting 1.0h", "category": "hosting", "payee": "hosting", "at": "2026-09-05T06:15:08.424609+00:00"}
+{"type": "debit", "from": "wallet-atm-0916", "amount": 0.0256, "memo": "build hyp-gym-landing", "category": "inference", "payee": "inference_providers", "at": "2026-09-05T06:15:08.425403+00:00"}
+{"type": "credit", "to": "wallet-atm-0916", "amount": 25.0, "memo": "sale hyp-gym-landing", "category": "revenue", "at": "2026-09-05T06:15:08.425667+00:00"}
+{"type": "transfer", "from": "wallet-atm-0916", "to": "wallet-atm-2ed5", "amount": 5.0, "memo": "child endowment via treasurer", "at": "2026-09-05T06:15:08.425961+00:00"}
