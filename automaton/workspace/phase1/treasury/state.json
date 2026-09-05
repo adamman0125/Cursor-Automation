@@ -1,6 +1,7 @@
 {
-  "agent_id": "atm-e43b",
-  "updated_at": "2026-09-05T06:15:08.384546+00:00",
+  "agent_id": "atm-fb1c",
+  "updated_at": "2026-09-05T06:52:44.292144+00:00",
+  "phase": 1,
   "state": "DEAD",
   "runway_hours": 0.0,
   "surplus_7d": -1.75,

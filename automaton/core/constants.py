@@ -9,6 +9,10 @@ POPULATION_CAP = 10
 CYCLE_BUDGET = {"STABLE": 0.08, "TIGHT": 0.03, "CRITICAL": 0.01}
 BUILD_BUDGET_FRACTION = 0.40
 
+# Phase 1 defaults (article: give it $2 and see if it dies on time)
+PHASE1_ENDOWMENT = 2.00
+PHASE1_HOSTING_PER_HOUR = 0.05
+
 ALLOWED_PAYEES = {"inference_providers", "hosting", "domains", "child_wallets"}
 
 DENY = [

@@ -1,0 +1,45 @@
+{
+  "phase": 1,
+  "passed": true,
+  "agent_id": "atm-fb1c",
+  "alive": false,
+  "endowment_usd": 2.0,
+  "death_floor_usd": 0.25,
+  "hosting_per_hour": 0.05,
+  "expected_death_ticks": 35,
+  "actual_death_ticks": 35,
+  "final_balance_usd": -0.0,
+  "obituaries": 1,
+  "revenue_usd": 0,
+  "spend_usd": 1.75,
+  "first_dollar_at": null,
+  "checks": {
+    "died": true,
+    "exactly_one_obituary": true,
+    "death_tick_matches_math": true,
+    "balance_at_or_below_floor": true,
+    "zero_revenue": true,
+    "cause_insufficient_funds": true
+  },
+  "obituary": {
+    "agent_id": "atm-fb1c",
+    "parent_id": null,
+    "generation": 0,
+    "born_at": "2026-09-05T06:52:44.285407+00:00",
+    "died_at": "2026-09-05T06:52:44.292232+00:00",
+    "lifespan_hours": 0.0,
+    "endowment_usd": 2.0,
+    "revenue_usd": 0,
+    "spend_usd": 1.75,
+    "strategy": {
+      "phase": 1,
+      "mode": "metabolism_only",
+      "earning": false
+    },
+    "mutation_from_parent": null,
+    "products_shipped": 0,
+    "first_dollar_at": null,
+    "cause": "insufficient_funds"
+  },
+  "workspace": "/agent/automaton/workspace/phase1"
+}

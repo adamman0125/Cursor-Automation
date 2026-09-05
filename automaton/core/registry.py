@@ -1,10 +1,13 @@
 from __future__ import annotations
+
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from typing import Any
 
+
 def _utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
+
 
 @dataclass
 class Ledger:
@@ -36,6 +39,7 @@ class Ledger:
     def net_7d(self) -> float:
         return self.gross_revenue() - self.gross_spend()
 
+
 @dataclass
 class Agent:
     id: str
@@ -56,6 +60,7 @@ class Agent:
         if born.tzinfo is None:
             born = born.replace(tzinfo=timezone.utc)
         return round((now - born).total_seconds() / 3600.0, 3)
+
 
 class Registry:
     def __init__(self) -> None:

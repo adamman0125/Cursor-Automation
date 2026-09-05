@@ -59,22 +59,46 @@ class SimulatedChain:
             return round(self._balances.get(address, 0.0), 6)
 
     def credit(self, address: str, amount: float, memo: str, category: str) -> None:
-        self._emit({"type": "credit", "to": address, "amount": round(amount, 6),
-                    "memo": memo, "category": category})
+        self._emit(
+            {
+                "type": "credit",
+                "to": address,
+                "amount": round(amount, 6),
+                "memo": memo,
+                "category": category,
+            }
+        )
 
-    def debit(self, address: str, amount: float, memo: str, category: str, payee: str) -> None:
+    def debit(
+        self, address: str, amount: float, memo: str, category: str, payee: str
+    ) -> None:
         if category not in {"inference", "hosting", "domains", "other"}:
             raise ValueError(f"unknown debit category: {category}")
         if address in self._revoked:
             raise PermissionError(f"wallet {address} revoked")
-        self._emit({"type": "debit", "from": address, "amount": round(amount, 6),
-                    "memo": memo, "category": category, "payee": payee})
+        self._emit(
+            {
+                "type": "debit",
+                "from": address,
+                "amount": round(amount, 6),
+                "memo": memo,
+                "category": category,
+                "payee": payee,
+            }
+        )
 
     def transfer(self, frm: str, to: str, amount: float, memo: str) -> None:
         if frm in self._revoked:
             raise PermissionError(f"wallet {frm} revoked")
-        self._emit({"type": "transfer", "from": frm, "to": to,
-                    "amount": round(amount, 6), "memo": memo})
+        self._emit(
+            {
+                "type": "transfer",
+                "from": frm,
+                "to": to,
+                "amount": round(amount, 6),
+                "memo": memo,
+            }
+        )
 
     def revoke_all_grants(self, address: str) -> None:
         self._emit({"type": "revoke", "address": address, "memo": "grants revoked"})
@@ -82,6 +106,14 @@ class SimulatedChain:
     def sweep_to(self, frm: str, to: str) -> float:
         bal = self.balance_usd(frm)
         if bal > 0:
-            self._emit({"type": "transfer", "from": frm, "to": to,
-                        "amount": round(bal, 6), "memo": "reaper sweep residual"})
+            # Allow residual sweep after revoke by emitting transfer directly.
+            self._emit(
+                {
+                    "type": "transfer",
+                    "from": frm,
+                    "to": to,
+                    "amount": round(bal, 6),
+                    "memo": "reaper sweep residual",
+                }
+            )
         return bal

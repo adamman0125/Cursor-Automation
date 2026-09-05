@@ -5,7 +5,7 @@
 
 ## Deadliest niches
 
-- landing_pages_for_local_gyms: 1 deaths
+- ?: 1 deaths
 
 ## Standing rule
 

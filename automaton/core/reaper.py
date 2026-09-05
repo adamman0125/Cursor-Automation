@@ -12,6 +12,8 @@ if TYPE_CHECKING:
 
 
 class Reaper:
+    """Outside the agent. Reads chain, never agent.report(). grace=0."""
+
     def __init__(
         self,
         chain: SimulatedChain,

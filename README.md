@@ -36,10 +36,12 @@ PYTHONPATH=. python -m pytest automaton/tests -q
 
 ### Phase order (from the article)
 
-1. **Metabolism only** — TREASURER + REAPER. Give it $2, confirm death fires on time.
+1. **Metabolism only** — TREASURER + REAPER. Give it $2, confirm death fires on time. ✅ **PASS** (`35/35` ticks, 1 obituary, $0 revenue)
 2. **Earning, no replication** — add PROSPECTOR / BUILDER / SELLER. Reach first dollar.
 3. **Replication under a cap** — turn on REPLICATOR, population cap 10.
 4. **Raise the cap** — only after you know idle population cost.
+
+Phase 1 artifacts land in `automaton/workspace/phase1/` (`PHASE1_REPORT.md`, ledger, obituary).
 
 ## Grok Bot prompts
 
